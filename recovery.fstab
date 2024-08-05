@@ -14,3 +14,7 @@
 /mnt/product/fota           raw      /dev/block/bootdevice/by-name/fota             flags=display=fota
 /mnt/product/carrier        ext4     /dev/block/bootdevice/by-name/carrier          flags=display=carrier
 /mnt/product/OP             ext4     /dev/block/by-name/OP                          flags=display=OP;slotselect
+
+# Removable storage
+/external_sd vfat /dev/block/mmcblk1p1 /dev/block/mmcblk1 flags=storage;wipeingui;removable
+/usb-otg auto /dev/block/sda1 /dev/block/sda flags=display="USB-OTG";storage;wipeingui;removable
