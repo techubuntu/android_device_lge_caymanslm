@@ -14,3 +14,4 @@
 /mnt/product/fota           raw      /dev/block/bootdevice/by-name/fota             flags=display=fota
 /mnt/product/carrier        ext4     /dev/block/bootdevice/by-name/carrier          flags=display=carrier
 /mnt/product/OP             ext4     /dev/block/by-name/OP                          flags=display=OP;slotselect
+/recovery                   emmc     /dev/block/bootdevice/by-name/recovery         flags=display=recovery
