@@ -83,6 +83,8 @@ BOARD_SUPER_PARTITION_SIZE := 9126805504 # TODO: Fix hardcoded value
 BOARD_SUPER_PARTITION_GROUPS := lge_dynamic_partitions
 BOARD_LGE_DYNAMIC_PARTITIONS_PARTITION_LIST := system product vendor
 BOARD_LGE_DYNAMIC_PARTITIONS_SIZE := 9122611200 # TODO: Fix hardcoded value
+BOARD_RECOVERYIMAGE_PARTITION := /dev/block/bootdevice/by-name/recovery$(getprop ro.boot.slot_suffix)
+
 
 # Platform
 TARGET_BOARD_PLATFORM := sdm845
