@@ -1,6 +1,6 @@
 /system                     ext4     system                                         flags=display=system;logical;slotselect
 /product                    ext4     product                                        flags=display=product;logical;slotselect
-/vendor                     ext4     vendor                                         flags=display=vendor;logical;slotselect
+/vendor                     ext4     vendor                                         flags=display=vendor;slotselect
 /data                       f2fs     /dev/block/bootdevice/by-name/userdata         flags=display=data
 /sdcard                     vfat     /dev/block/mmcblk0p1                           flags=display=sdcard
 /metadata                   ext4     /dev/block/by-name/metadata                    flags=display=metadata
