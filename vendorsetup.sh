@@ -5,6 +5,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-add_lunch_combo twrp_caymanslm-user
-add_lunch_combo twrp_caymanslm-userdebug
-add_lunch_combo twrp_caymanslm-eng
+COMMON_LUNCH_CHOICES twrp_caymanslm-user
+COMMON_LUNCH_CHOICES twrp_caymanslm-userdebug
+COMMON_LUNCH_CHOICES twrp_caymanslm-eng
